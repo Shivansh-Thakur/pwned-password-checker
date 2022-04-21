@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0 0 0 20px;
+    box-sizing : border-box;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    color : rgb(235, 240, 236);
+    display : flex;
+    height : 100vh;
+    justify-content: center;
+    align-items: center;
+    padding : 10px;
+    /* background: linear-gradient(135deg, #05073a, #dc0606ca) */
+    background-image: url(images/pwned4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 30px 30px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #dc0606ca, #05073a);
+}

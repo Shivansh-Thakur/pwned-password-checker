@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/success.css">
+    </head>
+    <body>
+        <div class = container>
+        {% if count %}
+        <h2> Your password found {{count}} times, You should change your password!! </h2>
+        {% else %}
+        <h2> All good!! <br>Your password was not found in any data breaches.</h2>
+        {% endif %}
+        <h3>Thank you for your inquiry :)</h3>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

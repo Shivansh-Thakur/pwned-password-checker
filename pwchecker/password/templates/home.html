@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/home.css">
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+
+      Links 
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    
+    </nav>-->
+    <div class = "container">
+      <div class="heading">
+        <h2>Pwned Passwords</h2>
+        <h5>Pwned Passwords are hundreds of millions of real world passwords previously exposed in data breaches. This exposure makes them unsuitable for ongoing use as they're at much greater risk of being used to take over other accounts. They're searchable online below as well as being downloadable for use in other online systems.</h5>
+      </div>
+      <form action = "" method = POST>
+        <div class = "card-details">
+          {% csrf_token %}
+          {{ form }}
+            <div class = "card-box">
+              <input class = "details" type = "submit" placeholder = "password" aria-label= "password" value = "submit">
+            </div>
+        </div>
+      </form>
+      
+      
+    </div>
+    
+    <script src="" async defer></script>
+  </body>
+</html>
