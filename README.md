@@ -23,4 +23,4 @@ When a password hash with the same first 5 characters is found in the Pwned Pass
 On average, a range search returns 478 hash suffixes, although this number will differ depending on the hash prefix being searched for. The smallest result is 381, the largest 584. There are 1,048,576 different hash prefixes between 00000 and FFFFF (16^5) and every single one will return HTTP 200; there is no circumstance in which the API should return HTTP 404.
 Code	Body	Description
 
-200	Hash suffixes   counts	Ok — all password hashes beginning with the searched prefix are returned alongside prevalence counts.
+200	Hash suffixes   counts	Ok — all password hashes beginning with the searched prefix are returned alongside prevalence counts
