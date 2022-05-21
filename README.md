@@ -24,3 +24,4 @@ On average, a range search returns 478 hash suffixes, although this number will 
 Code	Body	Description
 
 200	Hash suffixes   counts	Ok — all password hashes beginning with the searched prefix are returned alongside prevalence counts.
+.
